@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?pql26k');
+  src:  url('fonts/icomoon.eot?pql26k#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pql26k') format('truetype'),
+    url('fonts/icomoon.woff?pql26k') format('woff'),
+    url('fonts/icomoon.svg?pql26k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bench:before {
+  content: "\e900";
+  color: #d4c17f;
+}
+.icon-bicycle:before {
+  content: "\e901";
+  color: #d4c17f;
+}
+.icon-building:before {
+  content: "\e902";
+  color: #d4c17f;
+}
+.icon-facebook:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-fountain:before {
+  content: "\e904";
+  color: #d4c17f;
+}
+.icon-instagram:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-map:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-play-button:before {
+  content: "\e907";
+  color: #d4c17f;
+}
+.icon-tell:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-vk:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-youtube:before {
+  content: "\e90a";
+  color: #fff;
+}

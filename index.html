@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HouseVOP</title>
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar">
+        <div class="navbar__container container">
+            <a href="#" class="navbar__logo">
+                <picture>
+                    <source media="(min-width: 769px)" srcset="img/logo.svg" alt="">
+                    <img src="img/logo-mob.svg" class="navbar__img" alt="logotipe">
+                </picture>
+            </a>
+            <div class="navbar__wrap">
+                <ul class="navbar__menu">
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">О комплексе</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#cta" class="navbar__menu-link">Район</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#rooms" class="navbar__menu-link">Каталог квартир</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">Ипотека</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#contacts" class="navbar__menu-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar__togle">
+                <span class="navbar__togle-line"></span>
+                <span class="navbar__togle-line"></span>
+                <span class="navbar__togle-line"></span>
+            </button>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title">Жилой комплекс<br> в историческом центре</h1>
+                <div class="header__mouse-effect">
+                    <a href="#testimonials">
+                        <img src="img/mouse.svg" class="header__mouse-effect-img" alt="mouse">
+                    </a>
+                </div>
+                <div class="header__contacts">
+                    <a href="#" class="header__contacts-item">
+                        <span class="icon-map"></span>
+                        <span>Наб. реки Фонтанки 10-15</span>
+                    </a>
+                    <a href="tel:+788121234567" class="header__contacts-item">
+                        <span class="icon-tell"></span>
+                        <span>8 (812) 123-45-67</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="testimonials" class="testimonials" data-aos="fade-right">
+        <div class="testimonials__container container">
+            <ul class="testimonials__list">
+                <li class="testimonials__item testimonials__item--big">
+                    <i class="testimonials__icon icon-bench"></i>
+                    <h6 class="testimonials__title">Рядом исторические парки и скверы</h6>
+                </li>
+                <li class="testimonials__item">
+                    <i class="testimonials__icon icon-building"></i>
+                    <h6 class="testimonials__title">Полностью обустроенный
+                    </h6>
+                </li>
+                <li class="testimonials__item">
+                    <i class="testimonials__icon icon-fountain"></i>
+                    <h6 class="testimonials__title">10 фонтанов на территории</h6>
+                </li>
+                <li class="testimonials__item">
+                    <i class="testimonials__icon icon-bicycle"></i>
+                    <h6 class="testimonials__title">6 км<br> велодорожек</h6>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="testimonials__number number">II</div>
+    </section>
+
+    <section id="rooms" class="rooms" data-aos="fade-left">
+        <div class="rooms__container container">
+            <h2 class="rooms__title section-title">Наши квартиры</h2>
+
+            <div class="rooms__fotos">
+                <a class="rooms__foto-link" href="#">
+                    <div class="rooms__foto-block">
+                        <img class="rooms__foto-img" src="img/rooms-foto.jpg" alt="foto-room">
+                        <h4 class="rooms__foto-title">Лофт — 3 этажа</h4>
+                    </div>
+                </a>
+
+                <a class="rooms__foto-link" href="#">
+                    <div class="rooms__foto-block">
+                        <img class="rooms__foto-img" src="img/rooms-foto2.jpg" alt="foto-room">
+                        <h4 class="rooms__foto-title">Лофт — 2 этажа</h4>
+                    </div>
+                </a>
+
+                <a class="rooms__foto-link" href="#">
+                    <div class="rooms__foto-block">
+                        <img class="rooms__foto-img" src="img/rooms-foto.jpg" alt="foto-room">
+                        <h4 class="rooms__foto-title">Лофт — 3 этажа</h4>
+                    </div>
+                </a>
+
+                <a class="rooms__foto-link" href="#">
+                    <div class="rooms__foto-block">
+                        <img class="rooms__foto-img" src="img/rooms-foto2.jpg" alt="foto-room">
+                        <h4 class="rooms__foto-title">Лофт — 2 этажа</h4>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="rooms__number number">III</div>
+    </section>
+
+    <section id="cta" class="cta" data-aos="fade-right">
+        <div class="cta__container container">
+            <h2 class="cta__title section-title">Хотите посмотреть?</h2>
+            <div class="cta__wrap">
+                <div class="cta__text">
+                    <p class="cta__descr">
+                        Lorem Ipsum - это текст-&quot;рыба&quot;, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной &quot;рыбой&quot; для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и
+                        форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                    </p>
+                </div>
+
+                <form class="cta__form" action="#" method="POST">
+                    <input class="cta__form-input form-input" type="text" placeholder="Ваше имя">
+                    <input class="cta__form-input form-input" type="tel" placeholder="Ваш телефон">
+                    <div class="cta__form-text form-text">
+                        <span>*Мы никому не передаем ваши данные. 
+										И не сохраняем ваш номер в базу.</span>
+                    </div>
+                    <button class="cta__form-btn form-btn" type="button" aria-label="посмотреть районы">Посмотреть район</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="video" data-aos="fade-left">
+        <div class="video__container container">
+            <div class="video__wrap">
+                <img class="video__img" src="img/video-bg.jpg" alt="house">
+            </div>
+        </div>
+        <div class="video__number number">IV</div>
+    </div>
+
+    <section id="map" class="map" data-aos="fade-right">
+        <div class="map__container container">
+            <h2 class="map__title section-title">Район на карте</h2>
+            <div class="map__block">
+                <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afb174e320b63bafed49408c5b0b3371dd85944bbd3e6c3dddb146feb55c1e94a&amp;width=100%25&amp;lang=ru_UA&amp;scroll=true"></script>
+            </div>
+        </div>
+        <div class="map__number number">V</div>
+    </section>
+
+    <section class="questions" data-aos="fade-left">
+        <div class="questions__container container">
+            <h2 class="questions__title section-title">Есть вопросы?</h2>
+            <form class="questions__form" action="#" method="POST">
+                <div class="questions__form-text form-text">
+                    <span>*Мы никому не передаем ваши данные. 
+								И не сохраняем ваш номер в базу.</span>
+                </div>
+                <input class="questions__form-input form-input questions__form-input--name" type="text" placeholder="Ваше имя">
+                <input class="questions__form-input form-input questions__form-input--email" type="tel" placeholder="Ваш телефон">
+                <button class="questions__form-btn form-btn" type="button" aria-label="посмотреть районы">Посмотреть район</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contacts" class="footer">
+        <div class="footer__container container">
+            <div class="footer__column">
+                <a href="#" class="brand">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="img/logo.svg" alt="">
+                        <img src="img/logo-mob.svg" class="navbar__img" alt="logotipe">
+                    </picture>
+                </a>
+            </div>
+            <ul class="footer__column">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">О комплексе</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Район</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Каталог квартир</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Ипотека</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Контакты</a>
+                </li>
+            </ul>
+
+            <ul class="footer__column">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">О комплексе</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Район</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Каталог квартир</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Ипотека</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Контакты</a>
+                </li>
+            </ul>
+
+            <ul class="footer__column">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Адрес: Наб. реки Фонтанки 10-15</a>
+                </li>
+                <li class="footer__item">
+                    <span class="footer__item-contacts">Телефон:</span><a href="tel:88121234567" class="footer__link footer__link--tel">8 (812) 123-45-67</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Отдел продаж: 10:00 - 20:00</a>
+                </li>
+                <li class="footer__item">
+                    <span class="footer__item-contacts">E-mail:</span><a href=" mailto:vip@housevip.ru " class="footer__link footer__link--email">vip@housevip.ru</a>
+                </li>
+                <li class="footer__item footer__item--social">
+                    <a href="# " class="footer__link">
+                        <span class="footer__icon icon-youtube "></span>
+                    </a>
+                    <a href="# " class="footer__link">
+                        <span class="footer__icon icon-vk "></span>
+                    </a>
+                    <a href="# " class="footer__link">
+                        <span class="footer__icon icon-facebook "></span>
+                    </a>
+                    <a href="# " class="footer__link">
+                        <span class="footer__icon icon-instagram "></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="top"><img src="./img/up.png" class="top-img" alt="кнопка наверх"></div>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
